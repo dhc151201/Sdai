@@ -1,9 +1,7 @@
 import { $sdaiMask } from "./../index.js"
 
 Component({
-  properties: {
-
-  },
+  properties: { },
   data: {
     out: true,
     enter: false,
