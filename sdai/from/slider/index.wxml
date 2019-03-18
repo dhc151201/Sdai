@@ -1,0 +1,10 @@
+<slider 
+    min="{{min}}"
+    max="{{max}}"
+    value= "{{value}}"
+    step="{{step}}"
+    activeColor="{{activeColor}}"
+    block-color="{{blockColor}}" 
+    backgroundColor="{{backgroundColor}}" 
+    bindchanging="changing" 
+/>

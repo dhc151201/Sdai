@@ -1,0 +1,1 @@
+<text bindtap="tap" class="iconfont icon-chose {{className}}" style="font-size: {{size}}rpx;"><slot></slot></text>

@@ -1,0 +1,27 @@
+.btn-group{
+    overflow: hidden;
+    display: inline-block;
+}
+.btn-group-block{
+    display: block;
+}
+.btn-group-smaller{
+    height: 56rpx;
+    line-height: 56rpx;
+    border-radius: 56rpx;
+}
+.btn-group-small{
+    height: 80rpx;
+    line-height: 80rpx;
+    border-radius: 80rpx;
+}
+.btn-group-normal{
+    height: 88rpx;
+    line-height: 88rpx;
+    border-radius: 88rpx;
+}
+.btn-group-large{
+    height: 96rpx;
+    line-height: 96rpx;
+    border-radius: 96rpx;
+}

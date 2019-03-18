@@ -1,0 +1,27 @@
+.unit{
+    font-size: .75em;
+    padding-right: 4rpx;
+}
+.active{
+    color: #ffac1a;
+}
+.money{
+    /* padding: 0 4rpx; */
+}
+.del{
+    position: relative;
+    color: #ddd;
+    margin-left: 4rpx;
+    margin-right: 4rpx;
+    display: inline-block;
+    font-size: .8em;
+}
+.del::after{
+    position: absolute;
+    top: calc(50% - 1rpx);
+    width: calc(100% + 8rpx);
+    left: -4rpx;
+    border-top: 1rpx solid #ccc;
+    content: "";
+    display: block;
+}

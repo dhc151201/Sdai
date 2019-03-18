@@ -1,0 +1,17 @@
+@import './../../../assets/wxss/base.wxss';
+.mask{
+ position: fixed;
+ left: 0;
+ top: 0;
+ background: rgba(0,0,0,.6);
+ width: 100vw;
+ height: 100vh;
+ z-index: 30;
+ -webkit-transition: opacity 300ms;
+}
+.mask.out{
+  opacity: 0;
+}
+.mask.enter{
+  opacity: 1;
+}

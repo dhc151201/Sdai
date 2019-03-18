@@ -1,0 +1,15 @@
+<view class="rel box" style="width: {{width}};height: {{height}}; border-radius: {{radius}}rpx;">
+
+  <view wx:if="{{loading}}" class="abs loading flex flex-pack-center flex-align-center">
+    <image wx:if="{{!slotLoading}}" src="./../../../assets/images/loading.gif" style="width: 30rpx;height: 30rpx;"></image>
+    <slot wx:else name="loading"></slot>
+  </view>
+
+  <view wx:elif="{{errorStatus}}" class="abs error flex flex-pack-center flex-align-center">
+    <image wx:if="{{!slotLoading}}" src="./../../../assets/images/loading.gif" style="width: 30rpx;height: 30rpx;"></image>
+    <slot wx:else name="error"></slot>
+  </view>
+
+  <image mode='aspectFill' class="abs success loading-images-block {{light ? 'filter-light' : ''}}" lazy-load="{{lazyload}}" binderror="error" bindload="loaded" src="{{src}}" style="opacity: {{loadedStatus ? 1: 0}}; border-radius: {{radius}}rpx;"></image>
+
+</view>

@@ -1,0 +1,14 @@
+<form wx:if="{{reportSubmit}}" class="" report-submit="{{reportSubmit}}" bindsubmit="submit" bindreset="reset">
+    <button class='{{className}}' style="{{styleStr}}" hover-class='btn-hover' 
+        lang="{{lang}}" form-type="{{formType}}" open-type="{{openType}}" 
+        loading="{{loading}}" disabled="{{disabled}}" >
+        <slot></slot>
+    </button>
+</form>
+
+
+<button wx:else class='{{className}}' style="{{styleStr}}" hover-class='btn-hover' 
+    lang="{{lang}}" form-type="{{formType}}" open-type="{{openType}}" 
+    loading="{{loading}}" disabled="{{disabled}}" >
+    <slot></slot>
+</button>

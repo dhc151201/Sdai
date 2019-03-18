@@ -1,0 +1,19 @@
+<view 
+    class="refresher-box"
+    style="{{styleStr}}" 
+    bindtouchmove='touchmove' bindtouchstart='touchstart' bindtouchend='touchend'
+    >
+    <view class="pullStatus">
+        <view hidden="{{prepareStatus != 3}}">
+            <image class="pull-image" src="./../../../assets/images/5-121204193R5-50.gif"></image>{{refreshingText}}
+            <!-- <text class="iconfont icon-refresh"></text> -->
+        </view>
+        <view hidden="{{prepareStatus != 1}}">
+            <text class="iconfont icon-refresh"></text>{{prepareText}}
+        </view>
+        <view hidden="{{prepareStatus != 0}}">
+            <text class="iconfont icon-xiala"></text>{{pullingText}}
+        </view>
+    </view>
+    <slot></slot>
+</view>

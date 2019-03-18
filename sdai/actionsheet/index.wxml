@@ -1,0 +1,10 @@
+<!-- mask -->
+<cm-mask id="sdai-mask" catchtap='hide'></cm-mask>
+<!-- 下拉层 -->
+<view catchtouchmove='nullFun' hidden="{{hidden}}" class="actionsheet {{ out ? 'out' : ''}} {{ enter ? 'enter' : '' }}">
+  <view class="act-content">
+    <slot></slot>
+  </view>
+  <view class="act-cancel" catchtap='hide'>取消</view>
+</view>
+

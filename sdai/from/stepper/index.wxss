@@ -1,0 +1,14 @@
+@import './../../../../assets/wxss/base.wxss';
+
+.handel-pmage{
+  width: 44rpx;
+  height: 44rpx;
+  background: #ddd;
+  border-radius: 100%;
+}
+.value{
+  top: 2rpx;
+}
+.stepper-box{
+  width: 144rpx;
+}

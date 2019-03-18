@@ -1,0 +1,55 @@
+.large .spin-item{
+    width: 36rpx;
+    height: 36rpx;
+}
+.normal .spin-item{
+    width: 30rpx;
+    height: 30rpx;
+}
+.small .spin-item{
+    width: 24rpx;
+    height: 24rpx;
+}
+.smaller .spin-item{
+    width: 16rpx;
+    height: 16rpx;
+}
+
+.spin-box{
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+.spin-item{
+    display: inline-block;
+    border-radius: 100%;
+    transform: scale(0) translateZ(0);
+    opacity: 0;
+}
+.spin-item + .spin-item{
+    margin-left: 10rpx;
+}
+
+@keyframes scale{
+    0%{
+        transform: scale(0) translateZ(0);
+        opacity: 0;
+    }
+    50%{
+        transform: scale(1) translateZ(0);
+        opacity: 1;
+    }
+    100%{
+        transform: scale(0) translateZ(0);
+        opacity: 0;
+    }
+}
+.spin-one{
+    animation: scale 3s infinite;
+}
+.spin-two{
+    animation: scale 3s .5s infinite;
+}
+.spin-three{
+    animation: scale 3s 1s infinite;
+}

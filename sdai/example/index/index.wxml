@@ -1,0 +1,67 @@
+<sd-refresher >
+    app.json中添加:: "libs/sdai/example/index/index"
+    <view >example</view>
+    <view class="com-name">slider</view>
+    <sd-slider />
+
+
+
+    <view class="com-name">stepper</view>
+    <sd-stepper />
+
+
+
+    <view class="com-name">checkbox</view>
+    <sd-checkbox />
+
+
+
+    <view class="com-name">radio</view>
+    <sd-radio />
+
+
+
+
+    <view class="com-name">button</view>
+    <sd-button block type="success" size="large">大的(large)</sd-button>
+    <view class="self-hr"></view>
+    <sd-button type="error" size="normal">默认大小(normal)</sd-button>
+    <view class="self-hr"></view>
+    <sd-button type="cancel" size="small">小的(small)</sd-button>
+    <view class="self-hr"></view>
+    <sd-button type="cancel" disabled size="small">小的(small)、禁用的</sd-button>
+    <view class="self-hr"></view>
+    <sd-button size="smaller">更小的(smaller)</sd-button>
+    <view class="self-hr"></view>
+    <sd-button width="400" height="90" type="success">自定义宽高的(rpx)</sd-button>
+
+
+
+
+
+    <view class="com-name">button group</view>
+    <sd-button-group radius="8">
+        <sd-button radius="0" type="cancel">按钮</sd-button>
+        <sd-button radius="0" type="error">按钮</sd-button>
+        <sd-button radius="0" type="success">按钮</sd-button>
+    </sd-button-group>
+    <view class="self-hr"></view>
+    <sd-button-group size="smaller">
+        <sd-button size="smaller" radius="0" type="cancel">按钮</sd-button>
+        <sd-button size="smaller" radius="0" type="success">按钮</sd-button>
+    </sd-button-group>
+
+
+
+    <view class="com-name">人民币</view>
+    <sd-money value="234" />
+    <sd-money active value="234" />
+    <sd-money del value="234" />
+
+
+
+    <view class="com-name">mask</view>
+    <sd-button block bindtap="showMaskOne">简单的mask层</sd-button>
+    <sd-mask id="mask-1" />
+
+</sd-refresher>

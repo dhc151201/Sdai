@@ -1,0 +1,13 @@
+{
+    "usingComponents": {
+        "sd-refresher": "/libs/sdai/refresher/index",
+        "sd-slider": "/libs/sdai/from/slider/index",
+        "sd-stepper": "/libs/sdai/from/stepper/index",
+        "sd-checkbox": "/libs/sdai/from/checkbox/index",
+        "sd-radio": "/libs/sdai/from/radio/index",
+        "sd-button": "/libs/sdai/from/button/index",
+        "sd-button-group": "/libs/sdai/from/button-group/index",
+        "sd-money": "/libs/sdai/money/index",
+        "sd-mask": "/libs/sdai/mask/index"
+    }
+}

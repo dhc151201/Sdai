@@ -1,0 +1,31 @@
+@import "./../../../assets/iconfont/iconfont.wxss";
+.refresher-box{
+    position: relative;
+    /* overflow: hidden; */
+}
+.pullStatus{
+    position: absolute;
+    top: -100rpx;
+    left: 0;
+    width: 100%;
+    height: 100rpx;
+    z-index: -1;
+    font-size: 22rpx;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #999;
+}
+.iconfont{
+    margin-right: 16rpx;
+    /* position: relative;
+    top: 2rpx; */
+    font-size: 22rpx;
+}
+.pull-image{
+    width: 32rpx;
+    height: 32rpx;
+    position: relative;
+    top: 8rpx;
+    margin-right: 16rpx;
+}

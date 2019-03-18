@@ -1,0 +1,5 @@
+<view catchtouchmove='nullFun' bindtap="hide">
+  <view hidden="{{hidden}}" class="mask flex flex-pack-center flex-align-center {{out ? 'out' : ''}} {{enter ? 'enter' : '' }}" style="z-index: {{zindex}}">
+    <slot></slot>
+  </view>
+</view>

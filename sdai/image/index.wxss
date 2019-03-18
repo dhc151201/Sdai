@@ -1,0 +1,18 @@
+@import "./../../../assets/wxss/base.wxss";
+.loading,
+.error,
+.success{
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.loading-images-block{
+  display: block;
+  overflow: hidden;
+}
+
+.box{
+  overflow: hidden;
+}

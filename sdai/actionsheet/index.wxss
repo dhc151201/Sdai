@@ -1,0 +1,38 @@
+.actionsheet{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100vw;
+  z-index: 50;
+  -webkit-transition: all 300ms ease-in-out;
+}
+.actionsheet.out{
+  opacity: 0;
+  -webkit-transform: translate3d(0, 100%, 0);
+}
+.actionsheet.enter{
+  opacity: 1;
+  -webkit-transform: translate3d(0, 0, 0);
+}
+
+.act-content{
+  background: #fff;
+  margin: 0 20rpx;
+  border-radius: 10rpx;
+  min-height: 80rpx;
+}
+
+.act-cancel{
+  background: #fff;
+  color: #90cbf9;
+  text-align: center;
+  margin: 16rpx 20rpx;
+  border-radius: 10rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+}
+
+.act-content{
+  padding: 10rpx 0;
+  box-sizing: border-box;
+}

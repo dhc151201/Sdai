@@ -1,0 +1,10 @@
+<view class="tran" style="{{_tranBox}}">
+    <view class="spin-box {{size}}" style="{{_styleBox}}">
+        <text class="spin-item spin-one" style="{{_style}}"></text>
+        <text class="spin-item spin-two" style="{{_style}}"></text>
+        <text class="spin-item spin-three" style="{{_style}}"></text>
+    </view>
+</view>
+  
+
+  

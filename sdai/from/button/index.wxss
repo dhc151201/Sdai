@@ -1,0 +1,68 @@
+.btn{
+    display: inline-block;
+    padding: 0 30rpx;
+    box-sizing: border-box;
+    background: transparent;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.btn-block{
+    display: block;
+    width: 100%;
+}
+.btn::after, .btn::before{
+    display: none;
+}
+
+.btn-hover{
+  opacity: .7;
+  box-shadow: 0 5rpx 10rpx rgba(0,0,0,.05);
+}
+
+.btn-smaller{
+    height: 56rpx;
+    line-height: 56rpx;
+    border-radius: 56rpx;
+    font-size: 26rpx;
+}
+.btn-small{
+    height: 80rpx;
+    line-height: 80rpx;
+    border-radius: 80rpx;
+    font-size: 32rpx;
+}
+.btn-normal{
+    height: 88rpx;
+    line-height: 88rpx;
+    border-radius: 88rpx;
+    font-size: 32rpx;
+}
+.btn-large{
+    height: 96rpx;
+    line-height: 96rpx;
+    border-radius: 96rpx;
+    font-size: 36rpx;
+}
+
+.btn-success{
+    background: -webkit-linear-gradient(left, rgb(254, 191, 0), rgb(255, 170, 29)); 
+    color: #fff;
+}
+.btn-default{
+    border: 1rpx solid rgb(224, 224, 224);
+}
+.btn-cancel{
+    background: -webkit-linear-gradient(left, rgb(224, 224, 224), rgb(189, 189, 189)); 
+    color: #fff;
+}
+.btn-error{
+    background: #ff5e4b;
+    color: #fff;
+}
+.btn-transparent{
+    background: transparent; 
+    color: inherit;
+}
+
